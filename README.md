@@ -2,7 +2,7 @@
 A system that helps in ensuring social distancing guidelines and wearing masks, and the face recognition and authentication of the passengers with the airport database at the airport through a website that serves as the control panel for the airport staff members.
 
 1. Unzip the folder from the drive link.
-2. Create new folder called datase.
+2. Create new folder called datase and in the video folder add the test_video after downloading it from the drive link(https://drive.google.com/file/d/17xAiVRG0nSitVZQtW1svQGgCaECmtEnw/view?usp=sharing).
 3. Open sqlite studio.
 4. Database -> Add a database.
 5. Name it facedb and put it's location in the same folder that you had unzipped.
