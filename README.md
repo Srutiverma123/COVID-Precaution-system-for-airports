@@ -1,6 +1,4 @@
-# face-detetction-mask-detection-social-distancing-at-airport
-using ML, PYTHON
-
+# Face-detetction/authentication-mask-detection-social-distancing-at-airport using ML, PYTHON
 
 1. Unzip the folder from the drive link.
 2. Create new folder called datase.
@@ -12,9 +10,8 @@ using ML, PYTHON
 8. Save the table and run the faces_dataset.py file and enter your id,name,age,gender and flight number.
 9. Then run train_face.py
 10. Finally run the main.py which will give the website url, click this and you will be diretced to the website which has face detection,mask detection and social distancing features.
-11.   #if len(red_zone_list)>0:
-        #    playsound('social_dist.mp3', True)
-There will be a line on line 318 in main.py
-Remove the comments and again run main.py
+11.  if len(red_zone_list)>0:
+           playsound('social_dist.mp3', True)
+There will be a line on line 318 in main.py, remove the comments and again run main.py  .
 Whenever the social distancing button is clicked and the video starts playing, if users in video do not follow social distancing, an audio starts palying saying maintain social distancing but it decreases the frame rate of the video.
 
