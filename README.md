@@ -1,4 +1,5 @@
-# Face-detetction/authentication-mask-detection-social-distancing-at-airport using ML, PYTHON
+# Face-detetction/authentication-mask-detection-social-distancing-at-airport using ML
+A system that helps in ensuring social distancing guidelines and wearing masks, and the face recognition and authentication of the passengers with the airport database at the airport through a website that serves as the control panel for the airport staff members.
 
 1. Unzip the folder from the drive link.
 2. Create new folder called datase.
@@ -15,3 +16,5 @@
 There will be a line on line 318 in main.py, remove the comments and again run main.py  .
 Whenever the social distancing button is clicked and the video starts playing, if users in video do not follow social distancing, an audio starts palying saying maintain social distancing but it decreases the frame rate of the video.
 
+# Research paper link
+https://ijcrr.com/uploads/3806_pdf.pdf
