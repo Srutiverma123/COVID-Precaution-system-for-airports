@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="widget center">
+          <div class="blur"></div>
+            <div class="text center" align="center">    <br><br>
+                <a id=sd><button class='btn btn-default'><p>Social Distancing</p></button></a><br><br>
+                <a id=md><button class='btn btn-default'><p>Mask detection</p></button></a><br><br>
+                <a id=fr><button class='btn btn-default'><p>Face recognition</p></button></a><br><br>
+            </div>
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type=text/javascript>
+        $(function() {
+          $('a#sd').bind('click', function() {
+            $.getJSON('/social_distancing_module',
+                function(data) {
+            });
+            return false;
+          });
+        });
+         $(function() {
+          $('a#md').bind('click', function() {
+            $.getJSON('/mask_detection',
+                function(data) {
+            });
+            return false;
+          });
+        });
+         $(function() {
+          $('a#fr').bind('click', function() {
+            $.getJSON('/face_rec_mod',
+                function(data) {
+            });
+            return false;
+          });
+        });
+</script>
+    </body>
+</html>
