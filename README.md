@@ -19,6 +19,4 @@ Whenever the social distancing button is clicked and the video starts playing, i
 # Research paper link
 https://ijcrr.com/uploads/3806_pdf.pdf
 
-# Contributors
-ramcalm
-shaumaya
+
